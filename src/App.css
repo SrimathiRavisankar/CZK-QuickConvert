@@ -1,0 +1,57 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.input, .select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.result-card {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #e8f4fd;
+  border-radius: 8px;
+  color: #2c3e50;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.rate-list {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  border-top: 1px solid #ddd;
+}
+
+.rate-item {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #eee;
+}
